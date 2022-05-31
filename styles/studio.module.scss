@@ -1,0 +1,70 @@
+$bg-color: rgba(60, 0, 67, 1);
+
+.studio {
+  clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0 100%, 0% 50%);
+  background-color: $bg-color;
+  color: white;
+  // height: 130vh;
+  padding-top: 5.625em;
+  padding-bottom: 10em;
+  // overflow: hidden;
+  .content {
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+    // position: relative;
+    // top: 8em;
+    text-align: center;
+    h1 {
+      // letter-spacing: 0.6px;
+      margin-bottom: 1em;
+      // font-family: mosk;
+    }
+    p {
+      letter-spacing: .04em;
+    }
+
+    .studioSpecs {
+      // width: 90%;
+      margin: auto;
+      margin-top: 3em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      .spec {
+        border-radius: 4px;
+        background-color: #45014d;
+        padding: 1.875em 0;
+        height: 12.5vh;
+        margin-bottom: 2em;
+        flex-basis: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h2 {
+          font-size: 1.17em;
+          letter-spacing: 0.0375em;
+          margin-top: .5em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .studioSpecs {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    .spec {
+      width: 100%;
+    }
+  }
+
+  .studio {
+    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0 100%, 0% 50%);
+    // padding-top: 9em;
+    // padding-bottom: 13em;
+  }
+}
