@@ -8,7 +8,12 @@ const Biography: FC = () => {
       <div className={styles.content}>
         <div className={styles.left}>
           <div className={styles.content}>
-            <img src="/hussein-headshot.png" alt="" />
+            <img
+              src="/hussein-headshot.png"
+              height="500px"
+              width="100%"
+              alt=""
+            />
             <div className={styles.socialMediaLinks}>
               <div className="twitter">
                 <a href="https://twitter.com/HSE_VO" target="_blank">
@@ -50,7 +55,10 @@ const Biography: FC = () => {
                 </a>
               </div>
               <div className="linkedin">
-                <a href="https://www.linkedin.com/in/hussein-mohammed-hse/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/hussein-mohammed-hse/"
+                  target="_blank"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"

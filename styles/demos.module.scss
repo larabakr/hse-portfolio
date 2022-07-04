@@ -11,7 +11,7 @@ $bg-color: rgba(60, 0, 67, 1);
     // font-family: mosk;
   }
   .content {
-    width: 92.5%;
+    width: 90%;
     // background-color: aqua;
     margin: auto;
     display: flex;
@@ -45,6 +45,15 @@ $bg-color: rgba(60, 0, 67, 1);
     }
     .right {
       justify-content: flex-end;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .content {
+    flex-direction: column;
+    .cont {
+      margin-bottom: 1em;
     }
   }
 }
