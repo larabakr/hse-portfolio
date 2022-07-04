@@ -25,7 +25,7 @@ $bg-color: rgba(60, 0, 67, 1);
     }
 
     .studioSpecs {
-      // width: 90%;
+      width: 85%;
       margin: auto;
       margin-top: 3em;
       display: flex;
@@ -35,10 +35,10 @@ $bg-color: rgba(60, 0, 67, 1);
       .spec {
         border-radius: 4px;
         background-color: #45014d;
-        padding: 1.875em 0;
-        height: 12.5vh;
-        margin-bottom: 2em;
-        flex-basis: 45%;
+        padding: 1.25em 0;
+        height: 12.5vh / 2.5;
+        margin-bottom: 1em;
+        flex-basis: 49%;
         display: flex;
         justify-content: center;
         align-items: center;
